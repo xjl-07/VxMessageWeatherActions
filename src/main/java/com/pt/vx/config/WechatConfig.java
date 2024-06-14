@@ -11,13 +11,13 @@ public class WechatConfig {
      * 你的微信的APPID
      * appId
      */
-    public static final String VxAppId = "your VxAppId";
+    public static final String VxAppId = "wxfb4a626bd7873c58";
 
     /**
      * 你的微信的密钥
      * appSecret
      */
-    public static final String VxAppSecret = "your VxAppSecret";
+    public static final String VxAppSecret = "9d3100d65972fbe45c12fa8071c4010c";
 
     public static final List<User> userList = new ArrayList<>();
 
@@ -38,28 +38,25 @@ public class WechatConfig {
      */
     static {
         userList.add(getUser(
-                "这个人扫码后的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "okxJl6Y6vTf6gqQePKPzxYhyYky4", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "0idzqWlSvh8ik70kVZWn5DQRDMpXMe9bn7Th6Kre-uw", //要给这个人发送的模板ID
+                "xie", //咋称呼这个人
+                "湖南省长沙市", //这个人的详细地址
+                "长沙", //这个人在的城市
+                new BirthDay(1999,6,14,false,true,"生日快乐！！")
         ));
 
-        userList.add(getUser(
-                "这个人扫码后的微信号",
-                "微信消息模板ID",
-                "这个人的称呼",
-                "江苏省南京市玄武区",
-                "南京",
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
-        ));
+        // userList.add(getUser(
+        //         "这个人扫码后的微信号",
+        //         "微信消息模板ID",
+        //         "这个人的称呼",
+        //         "江苏省南京市玄武区",
+        //         "南京",
+        //         new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
+        //         new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
+        //         new BirthDay(2020,7,8,true,true),
+        //         new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+        // ));
 
 
     }
