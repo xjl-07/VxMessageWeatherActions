@@ -11,7 +11,7 @@ public class KeyConfig {
     /**
      * 昵称，在模板里面就是{{userName.DATA}}
      */
-    public static final KeyDTO KEY_USER_NAME = new KeyDTO("userName", "#FFFFFF", true);
+    public static final KeyDTO KEY_USER_NAME = new KeyDTO("userName", "#FFB6C1", true);
 
     /**
      * 日期计算
