@@ -79,7 +79,7 @@ public class DateUtil {
 
     public static String passDayAbs(LocalDate source,LocalDate target){
         long day =  source.toEpochDay() - target.toEpochDay();
-        return (Math.abs(day) + 1) + "";
+        return Math.abs(day) + "";
     }
 
     public static String passChineseDayAbs(ChineseDate chineseDate,LocalDate target){
