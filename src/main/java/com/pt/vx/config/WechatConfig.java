@@ -44,8 +44,7 @@ public class WechatConfig {
                 "湖南省长沙市", //这个人的详细地址
                 "长沙", //这个人在的城市
                 new BirthDay(1999,7,12,true,true,"生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2023,2,12,false,true,"周年快乐~~")
+                new BirthDay(2025,2,12,false,true,"周年快乐~~")
         ));
 
         // userList.add(getUser(
