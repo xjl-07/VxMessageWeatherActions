@@ -44,7 +44,7 @@ public class WechatConfig {
                 "湖南省长沙市", //这个人的详细地址
                 "长沙", //这个人在的城市
                 new BirthDay(2024,7,12,true,true,""),
-                new BirthDay(2023,2,12,false,true,"")
+                new BirthDay(2023,2,11,false,true,"") // 纪念日统计的第多少天，所以第一天减了1
         ));
 
         // userList.add(getUser(
