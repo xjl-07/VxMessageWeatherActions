@@ -86,7 +86,8 @@ public class ApiMessageService {
         String url = "https://api.uomg.com/api/rand.qinghua?format=json";
         String s = HttpUtil.get(url);
         JSONObject jsonObject = JSONUtil.parseObj(s);
-        return jsonObject.getStr("content");
+        // return jsonObject.getStr("content");
+        return "你我她";
     }
 
     /**
