@@ -107,12 +107,10 @@ public class MainConfig {
      * 如果要更多的话，只需要复制 weatherOtherInfos.add(new WeatherOtherInfo(参数一,"参数二","参数三"));
      */
     static {
-
-        weatherOtherInfos.add(new WeatherOtherInfo(0,"<10","天气天气有点小冷，注意保暖哦~"));
-        weatherOtherInfos.add(new WeatherOtherInfo(0,">30","天气热起来咯，不要穿太多咯~"));
-        weatherOtherInfos.add(new WeatherOtherInfo(1,"雨","出门记得带伞哦！"));
-
-
+        weatherOtherInfos.add(new WeatherOtherInfo(0,"<10","天气有点小冷，多穿点注意保暖哦~"));
+        weatherOtherInfos.add(new WeatherOtherInfo(0,">30","天气热起来啦，不要穿太多哟~"));
+        weatherOtherInfos.add(new WeatherOtherInfo(0,">36","天气太热啦，注意防晒哟~"));
+        weatherOtherInfos.add(new WeatherOtherInfo(1,"雨","宝贝出门记得带伞哦~"));
     }
 
 
