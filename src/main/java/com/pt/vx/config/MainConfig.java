@@ -61,7 +61,7 @@ public class MainConfig {
      * true 开启
      * false 关闭
      */
-    public static boolean randomApiMessageMode = true;
+    public static boolean randomApiMessageMode = false;
 
 
 
