@@ -108,9 +108,9 @@ public class MainConfig {
      */
     static {
         weatherOtherInfos.add(new WeatherOtherInfo(0,"<10","天气有点小冷，多穿点注意保暖哦~"));
-        weatherOtherInfos.add(new WeatherOtherInfo(0,">30","天气热起来啦，不要穿太多哟~"));
-        weatherOtherInfos.add(new WeatherOtherInfo(0,">36","天气太热啦，注意防晒哟~"));
+        weatherOtherInfos.add(new WeatherOtherInfo(0,">32","天气热起来啦，不要穿太多哟~"));
         weatherOtherInfos.add(new WeatherOtherInfo(1,"雨","宝贝出门记得带伞哦~"));
+        weatherOtherInfos.add(new WeatherOtherInfo(1,"晴","今日天晴宜外出，注意防晒哟~"));
     }
 
 
